@@ -3,7 +3,7 @@ import os, json, sys, requests, msal
 from xml.etree.ElementTree import Element, SubElement, ElementTree, indent
 
 CLIENT_ID     = os.environ["AZURE_CLIENT_ID"]
-TENANT_ID     = os.environ.get("AZURE_TENANT_ID", "consumers")
+TENANT_ID     = os.environ.get("AZURE_TENANT_ID", "common")
 REFRESH_TOKEN = os.environ["MS_REFRESH_TOKEN"]
 SENDER_FILTER = os.environ["SENDER_FILTER"]
 PAGES_URL     = os.environ["PAGES_URL"]
@@ -13,16 +13,25 @@ FEED_FILE     = "docs/feed.xml"
 SCOPES        = ["https://graph.microsoft.com/Mail.Read"]
 
 def get_access_token():
-    # For personal Microsoft accounts (Hotmail/Outlook.com), use 'consumers' authority
+    # Use the tenant from the secret (must match the tenant where the refresh token was issued)
     app = msal.PublicClientApplication(
         CLIENT_ID,
-        authority="https://login.microsoftonline.com/consumers",
+        authority=f"https://login.microsoftonline.com/{TENANT_ID}",
     )
     result = app.acquire_token_by_refresh_token(REFRESH_TOKEN, scopes=SCOPES)
     if "access_token" not in result:
         print("[MSAL ERROR]", json.dumps(result, indent=2), file=sys.stderr)
         sys.exit(1)
     print("[OK] Token acquired")
+    # Print the token audience for debugging
+    try:
+        import base64
+        parts = result["access_token"].split(".")
+        payload = parts[1] + "==" * (4 - len(parts[1]) % 4)
+        decoded = json.loads(base64.b64decode(payload))
+        print(f"[DEBUG] Token aud={decoded.get('aud')} scp={decoded.get('scp')} upn={decoded.get('upn')} unique_name={decoded.get('unique_name')}", file=sys.stderr)
+    except Exception as e:
+        print(f"[DEBUG] Could not decode token: {e}", file=sys.stderr)
     return result["access_token"]
 
 def fetch_emails(token):
