@@ -7,8 +7,6 @@ jobs:
   get-token:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    permissions:
-      contents: read
     steps:
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -18,19 +16,14 @@ jobs:
       - name: Install dependencies
         run: pip install msal PyNaCl requests
 
-      - name: Run device code flow and save token
+      - name: Run device code flow
         env:
           AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}
         run: |
           python3 - <<'EOF'
-          import msal, json, os, sys, base64, requests
-          from nacl import encoding, public
+          import msal, json, os, sys
 
           CLIENT_ID = os.environ["AZURE_CLIENT_ID"]
-          GH_TOKEN  = os.environ["GH_TOKEN"]
-          GH_REPO   = os.environ["GH_REPO"]
           SCOPES    = ["https://graph.microsoft.com/Mail.Read"]
 
           app = msal.PublicClientApplication(
@@ -52,39 +45,25 @@ jobs:
 
           result = app.acquire_token_by_device_flow(flow)
 
+          print("[DEBUG] Keys:", list(result.keys()), file=sys.stderr)
+
           if "refresh_token" not in result:
-              print("ERREUR:", json.dumps(result, indent=2))
+              print("ERREUR: pas de refresh_token. Keys:", list(result.keys()))
+              print(json.dumps({k:v for k,v in result.items() if k!='access_token'}, indent=2))
               sys.exit(1)
 
           rt = result["refresh_token"]
-          print(f"Token obtenu ({len(rt)} chars) - Sauvegarde dans le secret GitHub...")
-
-          # Get repo public key for secret encryption
-          headers = {
-              "Authorization": f"Bearer {GH_TOKEN}",
-              "Accept": "application/vnd.github+json",
-              "X-GitHub-Api-Version": "2022-11-28",
-          }
-          key_resp = requests.get(
-              f"https://api.github.com/repos/{GH_REPO}/actions/secrets/public-key",
-              headers=headers,
-          )
-          key_resp.raise_for_status()
-          key_data = key_resp.json()
-          key_id   = key_data["key_id"]
-          pub_key  = public.PublicKey(key_data["key"].encode(), encoding.Base64Encoder())
-          sealed   = public.SealedBox(pub_key).encrypt(rt.encode())
-          encrypted = base64.b64encode(sealed).decode()
-
-          # Update secret
-          put_resp = requests.put(
-              f"https://api.github.com/repos/{GH_REPO}/actions/secrets/MS_REFRESH_TOKEN",
-              headers=headers,
-              json={"encrypted_value": encrypted, "key_id": key_id},
-          )
-          if put_resp.status_code in (201, 204):
-              print("SUCCES: Secret MS_REFRESH_TOKEN mis a jour automatiquement!")
-          else:
-              print(f"ERREUR mise a jour secret: {put_resp.status_code} {put_resp.text}")
-              sys.exit(1)
+          # Write to file (will be read by next step)
+          with open("/tmp/rt.txt", "w") as f:
+              f.write(rt)
+          print(f"[OK] Refresh token saved ({len(rt)} chars)")
           EOF
+
+      - name: Update GitHub secret with GH CLI
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          RT=$(cat /tmp/rt.txt)
+          gh secret set MS_REFRESH_TOKEN --body "$RT" --repo ${{ github.repository }}
+          echo "[OK] Secret MS_REFRESH_TOKEN updated successfully!"
+          rm /tmp/rt.txt
