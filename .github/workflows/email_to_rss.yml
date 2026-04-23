@@ -5,14 +5,16 @@ on:
     - cron: "0 * * * *"
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: write
 
 jobs:
   generate-feed:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
       - name: Checkout du repo
         uses: actions/checkout@v4.2.2
@@ -24,15 +26,17 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Installer les dependances
+        run: pip install msal requests
+
       - name: "Recuperation emails & generation RSS"
         env:
-          IMAP_SERVER:   ${{ secrets.IMAP_SERVER }}
-          IMAP_PORT:     ${{ secrets.IMAP_PORT }}
-          EMAIL_USER:    ${{ secrets.EMAIL_USER }}
-          EMAIL_PASS:    ${{ secrets.EMAIL_PASS }}
-          SENDER_FILTER: ${{ secrets.SENDER_FILTER }}
-          PAGES_URL:     ${{ secrets.PAGES_URL }}
-          MAX_ITEMS:     "100"
+          AZURE_CLIENT_ID:  ${{ secrets.AZURE_CLIENT_ID }}
+          AZURE_TENANT_ID:  ${{ secrets.AZURE_TENANT_ID }}
+          MS_REFRESH_TOKEN: ${{ secrets.MS_REFRESH_TOKEN }}
+          SENDER_FILTER:    ${{ secrets.SENDER_FILTER }}
+          PAGES_URL:        ${{ secrets.PAGES_URL }}
+          MAX_ITEMS:        "100"
         run: python fetch_and_generate_rss.py
 
       - name: "Commit & push du flux RSS"
