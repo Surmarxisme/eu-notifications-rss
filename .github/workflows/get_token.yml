@@ -22,11 +22,11 @@ jobs:
           AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
         run: |
           python3 - <<'EOF'
-          import msal, json, os, sys, time
+          import msal, json, os, sys
 
           CLIENT_ID = os.environ["AZURE_CLIENT_ID"]
           TENANT_ID = os.environ.get("AZURE_TENANT_ID", "common")
-          SCOPES = ["https://graph.microsoft.com/Mail.Read", "offline_access"]
+          SCOPES = ["https://graph.microsoft.com/Mail.Read"]
 
           app = msal.PublicClientApplication(
               CLIENT_ID,
