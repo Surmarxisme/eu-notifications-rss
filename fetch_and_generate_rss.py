@@ -1,84 +1,51 @@
 #!/usr/bin/env python3
-import imaplib
-import email
-import os
-import json
-import hashlib
-from email.header import decode_header
-from email.utils import parsedate_to_datetime
+import os, json, hashlib, requests, msal
 from datetime import datetime, timezone
 from xml.etree.ElementTree import Element, SubElement, ElementTree, indent
 import xml.etree.ElementTree as ET
 
-IMAP_SERVER   = os.environ["IMAP_SERVER"]
-IMAP_PORT     = int(os.environ.get("IMAP_PORT", 993))
-EMAIL_USER    = os.environ["EMAIL_USER"]
-EMAIL_PASS    = os.environ["EMAIL_PASS"]
+CLIENT_ID     = os.environ["AZURE_CLIENT_ID"]
+TENANT_ID     = os.environ.get("AZURE_TENANT_ID", "common")
+REFRESH_TOKEN = os.environ["MS_REFRESH_TOKEN"]
 SENDER_FILTER = os.environ["SENDER_FILTER"]
 PAGES_URL     = os.environ["PAGES_URL"]
 MAX_ITEMS     = int(os.environ.get("MAX_ITEMS", 100))
 HISTORY_FILE  = "docs/history.json"
 FEED_FILE     = "docs/feed.xml"
+SCOPES        = ["https://graph.microsoft.com/Mail.Read"]
 
-def decode_str(value):
-    if value is None:
-        return ""
-    parts = decode_header(value)
-    result = []
-    for part, enc in parts:
-        if isinstance(part, bytes):
-            result.append(part.decode(enc or "utf-8", errors="replace"))
-        else:
-            result.append(part)
-    return "".join(result)
+def get_access_token():
+    app = msal.PublicClientApplication(CLIENT_ID,
+          authority=f"https://login.microsoftonline.com/{TENANT_ID}")
+    result = app.acquire_token_by_refresh_token(REFRESH_TOKEN, scopes=SCOPES)
+    if "access_token" not in result:
+        raise Exception(f"Token error: {result.get('error_description')}")
+    return result["access_token"]
 
-def get_body(msg):
-    if msg.is_multipart():
-        html_body = None
-        text_body = None
-        for part in msg.walk():
-            ct = part.get_content_type()
-            cd = str(part.get("Content-Disposition", ""))
-            if "attachment" in cd:
-                continue
-            if ct == "text/html" and html_body is None:
-                html_body = part.get_payload(decode=True).decode(
-                    part.get_content_charset() or "utf-8", errors="replace")
-            elif ct == "text/plain" and text_body is None:
-                text_body = part.get_payload(decode=True).decode(
-                    part.get_content_charset() or "utf-8", errors="replace")
-        return html_body or text_body or ""
-    else:
-        payload = msg.get_payload(decode=True)
-        if payload:
-            return payload.decode(msg.get_content_charset() or "utf-8", errors="replace")
-        return ""
-
-def fetch_emails():
-    print(f"Connexion a {IMAP_SERVER}:{IMAP_PORT}...")
-    conn = imaplib.IMAP4_SSL(IMAP_SERVER, IMAP_PORT)
-    conn.login(EMAIL_USER, EMAIL_PASS)
-    conn.select("INBOX", readonly=True)
-    search_criteria = f'FROM "{SENDER_FILTER}"'
-    _, data = conn.search(None, search_criteria)
-    ids = data[0].split()
-    print(f"{len(ids)} email(s) trouve(s) de {SENDER_FILTER}")
+def fetch_emails(token):
+    headers = {"Authorization": f"Bearer {token}"}
+    url = (
+        "https://graph.microsoft.com/v1.0/me/messages"
+        f"?$filter=from/emailAddress/address eq '{SENDER_FILTER}'"
+        f"&$orderby=receivedDateTime desc"
+        f"&$top={MAX_ITEMS}"
+        f"&$select=id,subject,receivedDateTime,body"
+    )
     items = []
-    for uid in ids[-MAX_ITEMS:]:
-        _, msg_data = conn.fetch(uid, "(RFC822)")
-        raw = msg_data[0][1]
-        msg = email.message_from_bytes(raw)
-        subject = decode_str(msg.get("Subject", "(Sans objet)"))
-        date_str = msg.get("Date", "")
-        try:
-            pub_date = parsedate_to_datetime(date_str)
-        except Exception:
-            pub_date = datetime.now(timezone.utc)
-        body = get_body(msg)
-        guid = hashlib.md5(f"{subject}{date_str}".encode()).hexdigest()
-        items.append({"guid": guid, "title": subject, "pub_date": pub_date.isoformat(), "body": body})
-    conn.logout()
-    items.sort(key=lambda x: x["pub_date"], reverse=True)
+    while url:
+        r = requests.get(url, headers=headers)
+        r.raise_for_status()
+        data = r.json()
+        for msg in data.get("value", []):
+            guid = hashlib.md5(msg["id"].encode()).hexdigest()
+            items.append({
+                "guid": guid,
+                "title": msg.get("subject", "(Sans objet)"),
+                "pub_date": msg["receivedDateTime"],
+                "body": msg["body"]["content"],
+            })
+        url = data.get("@odata.nextLink")
+    print(f"{len(items)} email(s) recupere(s) de {SENDER_FILTER}")
     return items
 
 def load_history():
@@ -93,7 +60,7 @@ def save_history(items):
         json.dump(items, f, ensure_ascii=False, indent=2)
 
 def merge_items(existing, new):
-    seen = {item["guid"] for item in existing}
+    seen = {i["guid"] for i in existing}
     merged = list(existing)
     added = 0
     for item in new:
@@ -111,7 +78,7 @@ def generate_rss(items):
     channel = SubElement(rss, "channel")
     SubElement(channel, "title").text = f"Notifications Commission UE - {SENDER_FILTER}"
     SubElement(channel, "link").text = PAGES_URL
-    SubElement(channel, "description").text = f"Flux RSS auto-genere depuis les emails de {SENDER_FILTER}"
+    SubElement(channel, "description").text = f"Flux RSS auto-genere depuis {SENDER_FILTER}"
     SubElement(channel, "language").text = "fr"
     SubElement(channel, "lastBuildDate").text = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
     for item in items:
@@ -120,7 +87,7 @@ def generate_rss(items):
         SubElement(entry, "guid", isPermaLink="false").text = item["guid"]
         SubElement(entry, "link").text = f"{PAGES_URL}/feed.xml"
         try:
-            dt = datetime.fromisoformat(item["pub_date"])
+            dt = datetime.fromisoformat(item["pub_date"].replace("Z", "+00:00"))
             SubElement(entry, "pubDate").text = dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
         except Exception:
             pass
@@ -135,7 +102,8 @@ def generate_rss(items):
     print(f"Flux RSS ecrit : {FEED_FILE} ({len(items)} items)")
 
 if __name__ == "__main__":
-    new_items = fetch_emails()
+    token     = get_access_token()
+    new_items = fetch_emails(token)
     history   = load_history()
     all_items = merge_items(history, new_items)
     save_history(all_items)
