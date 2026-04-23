@@ -1,0 +1,42 @@
+name: "Email -> RSS"
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout du repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: "Recuperation emails & generation RSS"
+        env:
+          IMAP_SERVER:   ${{ secrets.IMAP_SERVER }}
+          IMAP_PORT:     ${{ secrets.IMAP_PORT }}
+          EMAIL_USER:    ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS:    ${{ secrets.EMAIL_PASS }}
+          SENDER_FILTER: ${{ secrets.SENDER_FILTER }}
+          PAGES_URL:     ${{ secrets.PAGES_URL }}
+          MAX_ITEMS:     "100"
+        run: python fetch_and_generate_rss.py
+
+      - name: "Commit & push du flux RSS"
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/feed.xml docs/history.json
+          git diff --cached --quiet || git commit -m "Mise a jour flux RSS $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
