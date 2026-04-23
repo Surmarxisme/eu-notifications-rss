@@ -3,7 +3,7 @@ import os, json, sys, requests, msal
 from xml.etree.ElementTree import Element, SubElement, ElementTree, indent
 
 CLIENT_ID     = os.environ["AZURE_CLIENT_ID"]
-TENANT_ID     = os.environ.get("AZURE_TENANT_ID", "common")
+TENANT_ID     = os.environ.get("AZURE_TENANT_ID", "consumers")
 REFRESH_TOKEN = os.environ["MS_REFRESH_TOKEN"]
 SENDER_FILTER = os.environ["SENDER_FILTER"]
 PAGES_URL     = os.environ["PAGES_URL"]
@@ -13,9 +13,10 @@ FEED_FILE     = "docs/feed.xml"
 SCOPES        = ["https://graph.microsoft.com/Mail.Read"]
 
 def get_access_token():
+    # For personal Microsoft accounts (Hotmail/Outlook.com), use 'consumers' authority
     app = msal.PublicClientApplication(
         CLIENT_ID,
-        authority=f"https://login.microsoftonline.com/{TENANT_ID}",
+        authority="https://login.microsoftonline.com/consumers",
     )
     result = app.acquire_token_by_refresh_token(REFRESH_TOKEN, scopes=SCOPES)
     if "access_token" not in result:
