@@ -1,0 +1,60 @@
+name: Get OAuth Token (Device Code Flow)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  get-token:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install msal
+        run: pip install msal
+
+      - name: Run device code flow
+        env:
+          AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+        run: |
+          python3 - <<'EOF'
+          import msal, json, os, sys, time
+
+          CLIENT_ID = os.environ["AZURE_CLIENT_ID"]
+          TENANT_ID = os.environ.get("AZURE_TENANT_ID", "common")
+          SCOPES = ["https://graph.microsoft.com/Mail.Read", "offline_access"]
+
+          app = msal.PublicClientApplication(
+              CLIENT_ID,
+              authority=f"https://login.microsoftonline.com/{TENANT_ID}",
+          )
+
+          flow = app.initiate_device_flow(scopes=SCOPES)
+          if "user_code" not in flow:
+              print("ERROR:", json.dumps(flow, indent=2))
+              sys.exit(1)
+
+          print("\n" + "="*60)
+          print("ACTION REQUISE - Ouvrez ce lien dans votre navigateur:")
+          print(flow["verification_uri"])
+          print(f"Entrez ce code: {flow['user_code']}")
+          print("="*60 + "\n")
+          sys.stdout.flush()
+
+          result = app.acquire_token_by_device_flow(flow)
+
+          if "refresh_token" in result:
+              rt = result["refresh_token"]
+              print("\n" + "="*60)
+              print("SUCCES! Voici votre nouveau REFRESH TOKEN:")
+              print(rt)
+              print("="*60)
+              print(f"(length: {len(rt)} chars)")
+          else:
+              print("ERREUR:", json.dumps(result, indent=2))
+              sys.exit(1)
+          EOF
