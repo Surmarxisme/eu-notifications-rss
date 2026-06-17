@@ -5,6 +5,636 @@
     <link>https://Surmarxisme.github.io/eu-notifications-rss</link>
     <description>Emails from EU Corporate Notification System</description>
     <item>
+      <title>Press corner: latest press material</title>
+      <pubDate>2026-06-17T10:02:16Z</pubDate>
+      <guid>AQMkADAwATYwMAItYWVjNy03OTdhLTAwAi0wMAoARgAAA_bPXlLCJ75FhzR2gmsxX6gHAMWxOsCbFFVKpJ4u2qZ6GU0ACSHNOgcAAADFsTrAmxRVSqSeLtqmehlNAAlEzgx5AAAA</guid>
+      <description>&lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&lt;meta name="viewport" content="width=device-width"&gt;&lt;meta content="IE=edge"&gt;&lt;meta name="x-apple-disable-message-reformatting"&gt;&lt;style type="text/css"&gt;
+&lt;!--
+html, body
+	{font-family:Verdana,Geneva,sans-serif;
+	margin:0 auto!important;
+	padding:0!important;
+	height:100%!important;
+	width:100%!important;
+	font-weight:normal;
+	text-align:left;
+	font-size:11px}
+*
+	{}
+table, td
+	{}
+table
+	{border-spacing:0!important;
+	border-collapse:collapse!important;
+	table-layout:fixed!important;
+	margin:0 auto!important}
+table table table
+	{table-layout:auto}
+img
+	{}
+*[x-apple-data-detectors], .x-gmail-data-detectors, .x-gmail-data-detectors *, .aBn
+	{border-bottom:0!important;
+	color:inherit!important;
+	text-decoration:none!important;
+	font-size:inherit!important;
+	font-family:inherit!important;
+	font-weight:inherit!important;
+	line-height:inherit!important}
+.a6S
+	{display:none!important;
+	opacity:0.01!important}
+.button-link
+	{text-decoration:none!important}
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+.container
+	{min-width:320px!important}
+.emailImage
+	{height:auto!important;
+	max-width:374px!important;
+	width:100%!important}
+
+	}
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+.container
+	{min-width:375px!important}
+.emailImage
+	{height:auto!important;
+	max-width:413px!important;
+	width:100%!important}
+
+	}
+@media only screen and (min-device-width: 414px) {
+.container
+	{min-width:414px!important}
+.emailImage
+	{height:auto!important;
+	max-width:414px!important;
+	width:100%!important}
+
+	}
+@media only screen and (max-device-width: 592px) {
+.emailImage
+	{height:auto!important;
+	max-width:592px!important;
+	width:100%!important}
+table[class="body"] .container
+	{width:100%!important}
+.templateColumns
+	{width:100%!important}
+.templateColumnContainer
+	{display:block!important;
+	width:100%!important}
+
+	}
+@media only screen and (max-device-width: 600px) {
+.emailImage
+	{height:auto!important;
+	max-width:600px!important;
+	width:100%!important}
+table[class="body"] .container
+	{width:100%!important}
+.templateColumns
+	{width:100%!important}
+.templateColumnContainer
+	{display:block!important;
+	width:100%!important}
+
+	}
+.hr
+	{height:1px;
+	color:#d3d3d3!important;
+	background-color:#d3d3d3!important;
+	border-width:0.5px!important}
+.text-warning
+	{color:#c00000}
+.text-header-title
+	{font-weight:bold;
+	color:#ffffff;
+	font-size:12px;
+	text-transform:uppercase;
+	padding:2px;
+	text-decoration:none}
+.text-header
+	{font-weight:normal;
+	color:#ffffff;
+	font-size:12px;
+	padding:2px;
+	text-decoration:none}
+.text-footer
+	{font-size:11px;
+	font-weight:normal;
+	color:#666666}
+.text-footer-link
+	{color:#4F81BD;
+	font-weight:normal;
+	font-size:11px}
+.text-body-title
+	{font-weight:bold;
+	color:#000000;
+	font-size:12px;
+	text-transform:uppercase}
+.text-body-link
+	{color:#4F81BD;
+	font-size:11px;
+	padding-left:20px}
+.text-body-client
+	{font-weight:bold;
+	color:#ffffff;
+	font-size:12px;
+	text-transform:uppercase}
+.text-body-content
+	{font-size:12px}
+.text-body-key
+	{font-size:12px;
+	text-align:right;
+	color:#666666}
+.text-body-value
+	{font-size:12px;
+	text-align:left;
+	padding-left:8px}
+.text-summary-client_name
+	{font-weight:bold;
+	color:#ffffff;
+	font-size:11px;
+	line-height:14px;
+	text-transform:uppercase;
+	text-align:center}
+.text-summary-category_name
+	{color:#ffffff;
+	font-size:10px;
+	line-height:11px;
+	text-transform:uppercase;
+	text-align:center;
+	text-decoration:none}
+.text-summary-category_counter
+	{color:#ffffff;
+	font-size:12px;
+	line-height:14px;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none}
+.no-display
+	{display:none!important}
+a, a:visited
+	{color:inherit}
+--&gt;
+&lt;/style&gt;&lt;style&gt;
+&lt;!--
+.button-td, .button-a
+	{}
+@media screen and (max-width: 600px) {
+.container
+	{width:100%!important;
+	margin:auto!important}
+.fluid
+	{max-width:100%!important;
+	height:auto!important;
+	margin-left:auto!important;
+	margin-right:auto!important}
+.stack-column, .stack-column-center
+	{display:block!important;
+	width:100%!important;
+	max-width:100%!important;
+	direction:ltr!important}
+.stack-column-center
+	{text-align:center!important}
+.center-on-narrow
+	{text-align:center!important;
+	display:block!important;
+	margin-left:auto!important;
+	margin-right:auto!important;
+	float:none!important}
+table.center-on-narrow
+	{display:inline-block!important}
+.container p
+	{font-size:17px!important}
+
+	}
+--&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body class="body" style="width:100%!important; min-width:100%"&gt;&lt;table class="body" border="0" cellspacing="0" cellpadding="0" style="width:100%; border-spacing:0; padding:0; border:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="center" valign="top" style="text-align:center"&gt;&lt;center&gt;&lt;table class="container" width="600" cellspacing="0" cellpadding="0" style="width:600px; border-collapse:separate; border-spacing:0; padding:0"&gt;&lt;tbody&gt;&lt;tr style="padding:0; border-spacing:0"&gt;&lt;td style="padding:0; border-spacing:0"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" width="600" style="table-layout:fixed; border-spacing:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="background-color:#FFFFFF; margin-left:auto; margin-right:auto"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left" style="padding:10px 10px 10px 0px; text-align:right; width:10%"&gt;&lt;img src="cid:logo-ce-horizontal-quadri-lr.png" alt="European commission" height="50" width="190" border="0" class="emailImage" style="border-width:0; display:block; float:right"&gt;&lt;/td&gt;&lt;td align="left" style="padding:10px 0px 10px 0px; text-align:left; vertical-align:bottom"&gt;&lt;span style="font-weight:bold; color:#09496F; font-size:23px; padding:2px; text-decoration:none"&gt;Press Corner&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;h3 style="margin:0; padding:0; font-size:13px; line-height:15px; color:#09496F; font-family:Verdana,Geneva,sans-serif"&gt;Press corner: latest press material&lt;/h3&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;div style="margin:0; padding:0; font-size:12px; line-height:14px; color:#444345; font-family:Verdana,Geneva,sans-serif"&gt;Documents matching your subscription parameters - Date: 17/06/2026 &lt;p&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fdetail%2Ffr%2Fip_26_1341&amp;amp;data=05%7C02%7C%7C475418e417344a789c2508decc5781bf%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172873360869993%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=FedxZksgxe3%2BY%2FJMsCUDFDZxr9nT0tnZrJHHfhJOMuI%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/detail/fr/ip_26_1341"&gt;&lt;b&gt;La Commission autorise une aide d'État irlandaise d'un montant de 85&amp;nbsp;millions d'euros en faveur des entreprises agricoles confrontées à la hausse des prix des carburants&lt;/b&gt;&lt;/a&gt;&lt;br&gt;La Commission européenne a autorisé un régime d'aides d'État irlandais d'un montant de 85&amp;nbsp;millions d'euros visant à soutenir les entreprises agricoles confrontées à la hausse des prix des carburants en raison de la crise au Moyen-Orient. &lt;/p&gt;&lt;p&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fdetail%2Ffr%2Fip_26_1363&amp;amp;data=05%7C02%7C%7C475418e417344a789c2508decc5781bf%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172873360929947%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=tRPLVH47hlsjy%2BrNsQo3JybEZmKzRJxpZyJ1SNXBUj4%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/detail/fr/ip_26_1363"&gt;&lt;b&gt;La Commission autorise un régime d'aides d'État slovaque d'un&amp;nbsp;milliard d'euros destiné à accroître les capacités de production de technologies propres&lt;/b&gt;&lt;/a&gt;&lt;br&gt;La Commission européenne a autorisé un régime d'aides d'État slovaque d'un montant d'un milliard d'euros destiné à accroître les capacités de production de technologies propres («cleantech»), conformément aux objectifs du pacte pour une industrie propre. Cette mesure contribuera à la transition vers une économie à zéro émission nette. Le régime a été autorisé en vertu de l'encadrement des aides d'État dans le cadre du pacte pour une industrie propre (CISAF) adopté par la Commission le 25&amp;nbsp;juin 2025. &lt;/p&gt;&lt;p&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fdetail%2Fen%2Fmex_26_1379&amp;amp;data=05%7C02%7C%7C475418e417344a789c2508decc5781bf%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172873360971524%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=%2Fo3L6m822%2BG7LH4T5cAL83YPvr18Uuq%2B5A74Z4c%2F%2BXM%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1379"&gt;&lt;b&gt;Daily News 17 / 06 / 2026&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size="2" width="100%" noshade="" align="center" style="color:lightgrey"&gt;&lt;p class="MsoNormal" style="text-align:left; line-height:10.5pt"&gt;&lt;span style="font-size:8.5pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#666666"&gt;Manage your notifications/alerts: &lt;span style="color:#4f81bd"&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Fedit%2Feu-automatic-edit&amp;amp;data=05%7C02%7C%7C475418e417344a789c2508decc5781bf%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172873361024273%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=SkoOOHGtN%2Bsmc125WvWKoWV%2FqQkfmeNnH6DiHJecX%2Fk%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/edit/eu-automatic-edit" target="_blank"&gt;add, change&lt;/a&gt;, &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Feu-login%2Funsubscribe%2Feu-automatic-unsubscribe&amp;amp;data=05%7C02%7C%7C475418e417344a789c2508decc5781bf%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172873361079496%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=QsznN5KN6S47IFs8Lhfz%2FU32Cuq%2Fa1VGRWSP4ryHiFE%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/eu-login/unsubscribe/eu-automatic-unsubscribe" target="_blank"&gt;unsubscribe&lt;/a&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;The European Commission is committed to personal data protection. Any personal data is processed in line with the &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Feur-lex.europa.eu%2Flegal-content%2FEN%2FTXT%2F%3Furi%3DCELEX%253A32018R1725&amp;amp;data=05%7C02%7C%7C475418e417344a789c2508decc5781bf%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172873361134701%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=HTtnQtN18e7efJ0mu9AG%2B91WDUmS5twvKAgufVkEDV4%3D&amp;amp;reserved=0" originalsrc="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R1725"&gt;Regulation(EU)2018/1725&lt;/a&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;All personal information processed by the Directorate-General for Communication / European Commission Representations is treated accordingly. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr style="padding:6px 2px 0px 2px"&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;/center&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;center&gt;&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;</description>
+    </item>
+    <item>
+      <title>Press corner:  Le rapport sur l'état d'avancement de la décennie numérique 2026 fait état de progrès, mais demande instamment de combler les lacunes structurelles pour atteindre les objectifs à l'horizon 2030</title>
+      <pubDate>2026-06-17T09:49:06Z</pubDate>
+      <guid>AQMkADAwATYwMAItYWVjNy03OTdhLTAwAi0wMAoARgAAA_bPXlLCJ75FhzR2gmsxX6gHAMWxOsCbFFVKpJ4u2qZ6GU0ACSHNOgcAAADFsTrAmxRVSqSeLtqmehlNAAlEzgx4AAAA</guid>
+      <description>&lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&lt;meta name="viewport" content="width=device-width"&gt;&lt;meta content="IE=edge"&gt;&lt;meta name="x-apple-disable-message-reformatting"&gt;&lt;style type="text/css"&gt;
+&lt;!--
+html, body
+	{font-family:Verdana,Geneva,sans-serif;
+	margin:0 auto!important;
+	padding:0!important;
+	height:100%!important;
+	width:100%!important;
+	font-weight:normal;
+	text-align:left;
+	font-size:11px}
+*
+	{}
+table, td
+	{}
+table
+	{border-spacing:0!important;
+	border-collapse:collapse!important;
+	table-layout:fixed!important;
+	margin:0 auto!important}
+table table table
+	{table-layout:auto}
+img
+	{}
+*[x-apple-data-detectors], .x-gmail-data-detectors, .x-gmail-data-detectors *, .aBn
+	{border-bottom:0!important;
+	color:inherit!important;
+	text-decoration:none!important;
+	font-size:inherit!important;
+	font-family:inherit!important;
+	font-weight:inherit!important;
+	line-height:inherit!important}
+.a6S
+	{display:none!important;
+	opacity:0.01!important}
+.button-link
+	{text-decoration:none!important}
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+.container
+	{min-width:320px!important}
+.emailImage
+	{height:auto!important;
+	max-width:374px!important;
+	width:100%!important}
+
+	}
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+.container
+	{min-width:375px!important}
+.emailImage
+	{height:auto!important;
+	max-width:413px!important;
+	width:100%!important}
+
+	}
+@media only screen and (min-device-width: 414px) {
+.container
+	{min-width:414px!important}
+.emailImage
+	{height:auto!important;
+	max-width:414px!important;
+	width:100%!important}
+
+	}
+@media only screen and (max-device-width: 592px) {
+.emailImage
+	{height:auto!important;
+	max-width:592px!important;
+	width:100%!important}
+table[class="body"] .container
+	{width:100%!important}
+.templateColumns
+	{width:100%!important}
+.templateColumnContainer
+	{display:block!important;
+	width:100%!important}
+
+	}
+@media only screen and (max-device-width: 600px) {
+.emailImage
+	{height:auto!important;
+	max-width:600px!important;
+	width:100%!important}
+table[class="body"] .container
+	{width:100%!important}
+.templateColumns
+	{width:100%!important}
+.templateColumnContainer
+	{display:block!important;
+	width:100%!important}
+
+	}
+.hr
+	{height:1px;
+	color:#d3d3d3!important;
+	background-color:#d3d3d3!important;
+	border-width:0.5px!important}
+.text-warning
+	{color:#c00000}
+.text-header-title
+	{font-weight:bold;
+	color:#ffffff;
+	font-size:12px;
+	text-transform:uppercase;
+	padding:2px;
+	text-decoration:none}
+.text-header
+	{font-weight:normal;
+	color:#ffffff;
+	font-size:12px;
+	padding:2px;
+	text-decoration:none}
+.text-footer
+	{font-size:11px;
+	font-weight:normal;
+	color:#666666}
+.text-footer-link
+	{color:#4F81BD;
+	font-weight:normal;
+	font-size:11px}
+.text-body-title
+	{font-weight:bold;
+	color:#000000;
+	font-size:12px;
+	text-transform:uppercase}
+.text-body-link
+	{color:#4F81BD;
+	font-size:11px;
+	padding-left:20px}
+.text-body-client
+	{font-weight:bold;
+	color:#ffffff;
+	font-size:12px;
+	text-transform:uppercase}
+.text-body-content
+	{font-size:12px}
+.text-body-key
+	{font-size:12px;
+	text-align:right;
+	color:#666666}
+.text-body-value
+	{font-size:12px;
+	text-align:left;
+	padding-left:8px}
+.text-summary-client_name
+	{font-weight:bold;
+	color:#ffffff;
+	font-size:11px;
+	line-height:14px;
+	text-transform:uppercase;
+	text-align:center}
+.text-summary-category_name
+	{color:#ffffff;
+	font-size:10px;
+	line-height:11px;
+	text-transform:uppercase;
+	text-align:center;
+	text-decoration:none}
+.text-summary-category_counter
+	{color:#ffffff;
+	font-size:12px;
+	line-height:14px;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none}
+.no-display
+	{display:none!important}
+a, a:visited
+	{color:inherit}
+--&gt;
+&lt;/style&gt;&lt;style&gt;
+&lt;!--
+.button-td, .button-a
+	{}
+@media screen and (max-width: 600px) {
+.container
+	{width:100%!important;
+	margin:auto!important}
+.fluid
+	{max-width:100%!important;
+	height:auto!important;
+	margin-left:auto!important;
+	margin-right:auto!important}
+.stack-column, .stack-column-center
+	{display:block!important;
+	width:100%!important;
+	max-width:100%!important;
+	direction:ltr!important}
+.stack-column-center
+	{text-align:center!important}
+.center-on-narrow
+	{text-align:center!important;
+	display:block!important;
+	margin-left:auto!important;
+	margin-right:auto!important;
+	float:none!important}
+table.center-on-narrow
+	{display:inline-block!important}
+.container p
+	{font-size:17px!important}
+
+	}
+--&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body class="body" style="width:100%!important; min-width:100%"&gt;&lt;table class="body" border="0" cellspacing="0" cellpadding="0" style="width:100%; border-spacing:0; padding:0; border:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="center" valign="top" style="text-align:center"&gt;&lt;center&gt;&lt;table class="container" width="600" cellspacing="0" cellpadding="0" style="width:600px; border-collapse:separate; border-spacing:0; padding:0"&gt;&lt;tbody&gt;&lt;tr style="padding:0; border-spacing:0"&gt;&lt;td style="padding:0; border-spacing:0"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" width="600" style="table-layout:fixed; border-spacing:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="background-color:#FFFFFF; margin-left:auto; margin-right:auto"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left" style="padding:10px 10px 10px 0px; text-align:right; width:10%"&gt;&lt;img src="cid:logo-ce-horizontal-quadri-lr.png" alt="European commission" height="50" width="190" border="0" class="emailImage" style="border-width:0; display:block; float:right"&gt;&lt;/td&gt;&lt;td align="left" style="padding:10px 0px 10px 0px; text-align:left; vertical-align:bottom"&gt;&lt;span style="font-weight:bold; color:#09496F; font-size:23px; padding:2px; text-decoration:none"&gt;Press Corner&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;h3 style="margin:0; padding:0; font-size:13px; line-height:15px; color:#09496F; font-family:Verdana,Geneva,sans-serif"&gt;Press corner: Le rapport sur l'état d'avancement de la décennie numérique 2026 fait état de progrès, mais demande instamment de combler les lacunes structurelles pour atteindre les objectifs à l'horizon 2030&lt;/h3&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;div style="margin:0; padding:0; font-size:12px; line-height:14px; color:#444345; font-family:Verdana,Geneva,sans-serif"&gt;Documents matching your subscription parameters - Date: 17/06/2026 &lt;p&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fdetail%2Ffr%2Fip_26_1366&amp;amp;data=05%7C02%7C%7C10e23eb0e172452ca96108decc55ab52%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172865466469399%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=tDGogYN%2BVkvDnO20VJCTKBYsacHwpQJJcDFFUU6QZNw%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/detail/fr/ip_26_1366"&gt;&lt;b&gt;Le rapport sur l'état d'avancement de la décennie numérique 2026 fait état de progrès, mais demande instamment de combler les lacunes structurelles pour atteindre les objectifs à l'horizon 2030&lt;/b&gt;&lt;/a&gt;&lt;br&gt;La Commission européenne a publié le quatrième rapport sur l'état d'avancement de la décennie numérique, qui montre que l'Europe a progressé dans la réalisation de ses objectifs en matière de transformation numérique à l'horizon 2030, tels que des infrastructures numériques sûres et durables et la numérisation des services publics, mais que le défi consiste désormais à obtenir des résultats à grande échelle, rapidement et de manière cohérente. &lt;/p&gt;&lt;br&gt;&lt;hr size="2" width="100%" noshade="" align="center" style="color:lightgrey"&gt;&lt;p class="MsoNormal" style="text-align:left; line-height:10.5pt"&gt;&lt;span style="font-size:8.5pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#666666"&gt;Manage your notifications/alerts: &lt;span style="color:#4f81bd"&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Fedit%2Feu-automatic-edit&amp;amp;data=05%7C02%7C%7C10e23eb0e172452ca96108decc55ab52%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172865466514541%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=2lO7AfO57OAVH1TM4s81ifMPT706O9Q6KkuYp4sQN2U%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/edit/eu-automatic-edit" target="_blank"&gt;add, change&lt;/a&gt;, &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Feu-login%2Funsubscribe%2Feu-automatic-unsubscribe&amp;amp;data=05%7C02%7C%7C10e23eb0e172452ca96108decc55ab52%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172865466547186%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=ROvZ6TmYUTfyxL1JUZAwZpcYVEmt%2FYdrtCDU9HuWymM%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/eu-login/unsubscribe/eu-automatic-unsubscribe" target="_blank"&gt;unsubscribe&lt;/a&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;The European Commission is committed to personal data protection. Any personal data is processed in line with the &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Feur-lex.europa.eu%2Flegal-content%2FEN%2FTXT%2F%3Furi%3DCELEX%253A32018R1725&amp;amp;data=05%7C02%7C%7C10e23eb0e172452ca96108decc55ab52%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172865466572267%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=GSWDNMDIB04zUwFDVseuBXGjFciWxIU4vv21K42msw0%3D&amp;amp;reserved=0" originalsrc="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R1725"&gt;Regulation(EU)2018/1725&lt;/a&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;All personal information processed by the Directorate-General for Communication / European Commission Representations is treated accordingly. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr style="padding:6px 2px 0px 2px"&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;/center&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;center&gt;&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;</description>
+    </item>
+    <item>
+      <title>Press corner:</title>
+      <pubDate>2026-06-17T07:19:04Z</pubDate>
+      <guid>AQMkADAwATYwMAItYWVjNy03OTdhLTAwAi0wMAoARgAAA_bPXlLCJ75FhzR2gmsxX6gHAMWxOsCbFFVKpJ4u2qZ6GU0ACSHNOgcAAADFsTrAmxRVSqSeLtqmehlNAAlEzgx3AAAA</guid>
+      <description>&lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&lt;meta name="viewport" content="width=device-width"&gt;&lt;meta content="IE=edge"&gt;&lt;meta name="x-apple-disable-message-reformatting"&gt;&lt;style type="text/css"&gt;
+&lt;!--
+html, body
+	{font-family:Verdana,Geneva,sans-serif;
+	margin:0 auto!important;
+	padding:0!important;
+	height:100%!important;
+	width:100%!important;
+	font-weight:normal;
+	text-align:left;
+	font-size:11px}
+*
+	{}
+table, td
+	{}
+table
+	{border-spacing:0!important;
+	border-collapse:collapse!important;
+	table-layout:fixed!important;
+	margin:0 auto!important}
+table table table
+	{table-layout:auto}
+img
+	{}
+*[x-apple-data-detectors], .x-gmail-data-detectors, .x-gmail-data-detectors *, .aBn
+	{border-bottom:0!important;
+	color:inherit!important;
+	text-decoration:none!important;
+	font-size:inherit!important;
+	font-family:inherit!important;
+	font-weight:inherit!important;
+	line-height:inherit!important}
+.a6S
+	{display:none!important;
+	opacity:0.01!important}
+.button-link
+	{text-decoration:none!important}
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+.container
+	{min-width:320px!important}
+.emailImage
+	{height:auto!important;
+	max-width:374px!important;
+	width:100%!important}
+
+	}
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+.container
+	{min-width:375px!important}
+.emailImage
+	{height:auto!important;
+	max-width:413px!important;
+	width:100%!important}
+
+	}
+@media only screen and (min-device-width: 414px) {
+.container
+	{min-width:414px!important}
+.emailImage
+	{height:auto!important;
+	max-width:414px!important;
+	width:100%!important}
+
+	}
+@media only screen and (max-device-width: 592px) {
+.emailImage
+	{height:auto!important;
+	max-width:592px!important;
+	width:100%!important}
+table[class="body"] .container
+	{width:100%!important}
+.templateColumns
+	{width:100%!important}
+.templateColumnContainer
+	{display:block!important;
+	width:100%!important}
+
+	}
+@media only screen and (max-device-width: 600px) {
+.emailImage
+	{height:auto!important;
+	max-width:600px!important;
+	width:100%!important}
+table[class="body"] .container
+	{width:100%!important}
+.templateColumns
+	{width:100%!important}
+.templateColumnContainer
+	{display:block!important;
+	width:100%!important}
+
+	}
+.hr
+	{height:1px;
+	color:#d3d3d3!important;
+	background-color:#d3d3d3!important;
+	border-width:0.5px!important}
+.text-warning
+	{color:#c00000}
+.text-header-title
+	{font-weight:bold;
+	color:#ffffff;
+	font-size:12px;
+	text-transform:uppercase;
+	padding:2px;
+	text-decoration:none}
+.text-header
+	{font-weight:normal;
+	color:#ffffff;
+	font-size:12px;
+	padding:2px;
+	text-decoration:none}
+.text-footer
+	{font-size:11px;
+	font-weight:normal;
+	color:#666666}
+.text-footer-link
+	{color:#4F81BD;
+	font-weight:normal;
+	font-size:11px}
+.text-body-title
+	{font-weight:bold;
+	color:#000000;
+	font-size:12px;
+	text-transform:uppercase}
+.text-body-link
+	{color:#4F81BD;
+	font-size:11px;
+	padding-left:20px}
+.text-body-client
+	{font-weight:bold;
+	color:#ffffff;
+	font-size:12px;
+	text-transform:uppercase}
+.text-body-content
+	{font-size:12px}
+.text-body-key
+	{font-size:12px;
+	text-align:right;
+	color:#666666}
+.text-body-value
+	{font-size:12px;
+	text-align:left;
+	padding-left:8px}
+.text-summary-client_name
+	{font-weight:bold;
+	color:#ffffff;
+	font-size:11px;
+	line-height:14px;
+	text-transform:uppercase;
+	text-align:center}
+.text-summary-category_name
+	{color:#ffffff;
+	font-size:10px;
+	line-height:11px;
+	text-transform:uppercase;
+	text-align:center;
+	text-decoration:none}
+.text-summary-category_counter
+	{color:#ffffff;
+	font-size:12px;
+	line-height:14px;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none}
+.no-display
+	{display:none!important}
+a, a:visited
+	{color:inherit}
+--&gt;
+&lt;/style&gt;&lt;style&gt;
+&lt;!--
+.button-td, .button-a
+	{}
+@media screen and (max-width: 600px) {
+.container
+	{width:100%!important;
+	margin:auto!important}
+.fluid
+	{max-width:100%!important;
+	height:auto!important;
+	margin-left:auto!important;
+	margin-right:auto!important}
+.stack-column, .stack-column-center
+	{display:block!important;
+	width:100%!important;
+	max-width:100%!important;
+	direction:ltr!important}
+.stack-column-center
+	{text-align:center!important}
+.center-on-narrow
+	{text-align:center!important;
+	display:block!important;
+	margin-left:auto!important;
+	margin-right:auto!important;
+	float:none!important}
+table.center-on-narrow
+	{display:inline-block!important}
+.container p
+	{font-size:17px!important}
+
+	}
+--&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body class="body" style="width:100%!important; min-width:100%"&gt;&lt;table class="body" border="0" cellspacing="0" cellpadding="0" style="width:100%; border-spacing:0; padding:0; border:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="center" valign="top" style="text-align:center"&gt;&lt;center&gt;&lt;table class="container" width="600" cellspacing="0" cellpadding="0" style="width:600px; border-collapse:separate; border-spacing:0; padding:0"&gt;&lt;tbody&gt;&lt;tr style="padding:0; border-spacing:0"&gt;&lt;td style="padding:0; border-spacing:0"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" width="600" style="table-layout:fixed; border-spacing:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="background-color:#FFFFFF; margin-left:auto; margin-right:auto"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left" style="padding:10px 10px 10px 0px; text-align:right; width:10%"&gt;&lt;img src="cid:logo-ce-horizontal-quadri-lr.png" alt="European commission" height="50" width="190" border="0" class="emailImage" style="border-width:0; display:block; float:right"&gt;&lt;/td&gt;&lt;td align="left" style="padding:10px 0px 10px 0px; text-align:left; vertical-align:bottom"&gt;&lt;span style="font-weight:bold; color:#09496F; font-size:23px; padding:2px; text-decoration:none"&gt;Press Corner&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;h3 style="margin:0; padding:0; font-size:13px; line-height:15px; color:#09496F; font-family:Verdana,Geneva,sans-serif"&gt;Press corner: &lt;/h3&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;div style="margin:0; padding:0; font-size:12px; line-height:14px; color:#444345; font-family:Verdana,Geneva,sans-serif"&gt;Documents matching your subscription parameters - Date: 17/06/2026 &lt;p&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fdetail%2Fen%2Fstatement_26_1377&amp;amp;data=05%7C02%7C%7C3c643d66b49b44002b5d08decc40b57e%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172775446143032%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=qbGl8ARBID7LNSOEiG88sRt09aGd62WSQNKEvSdLSZo%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1377"&gt;&lt;b&gt;G7 Leaders' Joint Statements, 16-17 June 2026&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size="2" width="100%" noshade="" align="center" style="color:lightgrey"&gt;&lt;p class="MsoNormal" style="text-align:left; line-height:10.5pt"&gt;&lt;span style="font-size:8.5pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#666666"&gt;Manage your notifications/alerts: &lt;span style="color:#4f81bd"&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Fedit%2Feu-automatic-edit&amp;amp;data=05%7C02%7C%7C3c643d66b49b44002b5d08decc40b57e%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172775446195821%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=Imggrtqe%2F3qb5U6Tiz9hoEtx8niy4JKxb69OLSYTyRI%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/edit/eu-automatic-edit" target="_blank"&gt;add, change&lt;/a&gt;, &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Feu-login%2Funsubscribe%2Feu-automatic-unsubscribe&amp;amp;data=05%7C02%7C%7C3c643d66b49b44002b5d08decc40b57e%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172775446240741%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=W%2FhEUAmtzI91JRMZ2h3bFaykbJiTEigjm3xw9wobrsU%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/eu-login/unsubscribe/eu-automatic-unsubscribe" target="_blank"&gt;unsubscribe&lt;/a&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;The European Commission is committed to personal data protection. Any personal data is processed in line with the &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Feur-lex.europa.eu%2Flegal-content%2FEN%2FTXT%2F%3Furi%3DCELEX%253A32018R1725&amp;amp;data=05%7C02%7C%7C3c643d66b49b44002b5d08decc40b57e%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639172775446279935%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=YMPM0dZk1JmlL6BbDYuLjzOfza3s%2BEjTMqPtwBsWtxc%3D&amp;amp;reserved=0" originalsrc="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R1725"&gt;Regulation(EU)2018/1725&lt;/a&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;All personal information processed by the Directorate-General for Communication / European Commission Representations is treated accordingly. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr style="padding:6px 2px 0px 2px"&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;/center&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;center&gt;&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;</description>
+    </item>
+    <item>
       <title>Press corner:</title>
       <pubDate>2026-06-16T15:18:06Z</pubDate>
       <guid>AQMkADAwATYwMAItYWVjNy03OTdhLTAwAi0wMAoARgAAA_bPXlLCJ75FhzR2gmsxX6gHAMWxOsCbFFVKpJ4u2qZ6GU0ACSHNOgcAAADFsTrAmxRVSqSeLtqmehlNAAlEzgx2AAAA</guid>
@@ -20373,636 +21003,6 @@ table.center-on-narrow
 	}
 --&gt;
 &lt;/style&gt;&lt;/head&gt;&lt;body class="body" style="width:100%!important; min-width:100%"&gt;&lt;table class="body" border="0" cellspacing="0" cellpadding="0" style="width:100%; border-spacing:0; padding:0; border:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="center" valign="top" style="text-align:center"&gt;&lt;center&gt;&lt;table class="container" width="600" cellspacing="0" cellpadding="0" style="width:600px; border-collapse:separate; border-spacing:0; padding:0"&gt;&lt;tbody&gt;&lt;tr style="padding:0; border-spacing:0"&gt;&lt;td style="padding:0; border-spacing:0"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" width="600" style="table-layout:fixed; border-spacing:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="background-color:#FFFFFF; margin-left:auto; margin-right:auto"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left" style="padding:10px 10px 10px 0px; text-align:right; width:10%"&gt;&lt;img src="cid:logo-ce-horizontal-quadri-lr.png" alt="European commission" height="50" width="190" border="0" class="emailImage" style="border-width:0; display:block; float:right"&gt;&lt;/td&gt;&lt;td align="left" style="padding:10px 0px 10px 0px; text-align:left; vertical-align:bottom"&gt;&lt;span style="font-weight:bold; color:#09496F; font-size:23px; padding:2px; text-decoration:none"&gt;Press Corner&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;h3 style="margin:0; padding:0; font-size:13px; line-height:15px; color:#09496F; font-family:Verdana,Geneva,sans-serif"&gt;Press corner: &lt;/h3&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;div style="margin:0; padding:0; font-size:12px; line-height:14px; color:#444345; font-family:Verdana,Geneva,sans-serif"&gt;Documents matching your subscription parameters - Date: 07/05/2026 &lt;p&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fdetail%2Fen%2Fread_26_1036&amp;amp;data=05%7C02%7C%7C4a4fc2f889224982935d08deac79b6b9%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137835906274894%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=3lRSdf0QI62atQ1wZdiLr5O2BbvUubIoXQH4lYacxis%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/detail/en/read_26_1036"&gt;&lt;b&gt;Read-out by President von der Leyen following her phone call with US President Trump&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size="2" width="100%" noshade="" align="center" style="color:lightgrey"&gt;&lt;p class="MsoNormal" style="text-align:left; line-height:10.5pt"&gt;&lt;span style="font-size:8.5pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#666666"&gt;Manage your notifications/alerts: &lt;span style="color:#4f81bd"&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Fedit%2Feu-automatic-edit&amp;amp;data=05%7C02%7C%7C4a4fc2f889224982935d08deac79b6b9%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137835906319278%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=UQbkiND5gri25B3slStdC6WK%2FAtJBTVDvZqduyrWqVU%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/edit/eu-automatic-edit" target="_blank"&gt;add, change&lt;/a&gt;, &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Feu-login%2Funsubscribe%2Feu-automatic-unsubscribe&amp;amp;data=05%7C02%7C%7C4a4fc2f889224982935d08deac79b6b9%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137835906365231%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=5rq98UcnQquyLHNYpIqn50Ity1dyFTPUSJOw%2BIQWvNQ%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/eu-login/unsubscribe/eu-automatic-unsubscribe" target="_blank"&gt;unsubscribe&lt;/a&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;The European Commission is committed to personal data protection. Any personal data is processed in line with the &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Feur-lex.europa.eu%2Flegal-content%2FEN%2FTXT%2F%3Furi%3DCELEX%253A32018R1725&amp;amp;data=05%7C02%7C%7C4a4fc2f889224982935d08deac79b6b9%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137835906413749%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=Tm6UHbozH3heq9pm%2BeFkUQ%2BydJR0WBZCGsqz5UA4COk%3D&amp;amp;reserved=0" originalsrc="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R1725"&gt;Regulation(EU)2018/1725&lt;/a&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;All personal information processed by the Directorate-General for Communication / European Commission Representations is treated accordingly. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr style="padding:6px 2px 0px 2px"&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;/center&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;center&gt;&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;</description>
-    </item>
-    <item>
-      <title>Press corner:</title>
-      <pubDate>2026-05-07T13:14:39Z</pubDate>
-      <guid>AQMkADAwATYwMAItYWVjNy03OTdhLTAwAi0wMAoARgAAA_bPXlLCJ75FhzR2gmsxX6gHAMWxOsCbFFVKpJ4u2qZ6GU0ACSHNOgcAAADFsTrAmxRVSqSeLtqmehlNAAkrTlLMAAAA</guid>
-      <description>&lt;html&gt;&lt;head&gt;
-&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&lt;meta name="viewport" content="width=device-width"&gt;&lt;meta content="IE=edge"&gt;&lt;meta name="x-apple-disable-message-reformatting"&gt;&lt;style type="text/css"&gt;
-&lt;!--
-html, body
-	{font-family:Verdana,Geneva,sans-serif;
-	margin:0 auto!important;
-	padding:0!important;
-	height:100%!important;
-	width:100%!important;
-	font-weight:normal;
-	text-align:left;
-	font-size:11px}
-*
-	{}
-table, td
-	{}
-table
-	{border-spacing:0!important;
-	border-collapse:collapse!important;
-	table-layout:fixed!important;
-	margin:0 auto!important}
-table table table
-	{table-layout:auto}
-img
-	{}
-*[x-apple-data-detectors], .x-gmail-data-detectors, .x-gmail-data-detectors *, .aBn
-	{border-bottom:0!important;
-	color:inherit!important;
-	text-decoration:none!important;
-	font-size:inherit!important;
-	font-family:inherit!important;
-	font-weight:inherit!important;
-	line-height:inherit!important}
-.a6S
-	{display:none!important;
-	opacity:0.01!important}
-.button-link
-	{text-decoration:none!important}
-@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
-.container
-	{min-width:320px!important}
-.emailImage
-	{height:auto!important;
-	max-width:374px!important;
-	width:100%!important}
-
-	}
-@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
-.container
-	{min-width:375px!important}
-.emailImage
-	{height:auto!important;
-	max-width:413px!important;
-	width:100%!important}
-
-	}
-@media only screen and (min-device-width: 414px) {
-.container
-	{min-width:414px!important}
-.emailImage
-	{height:auto!important;
-	max-width:414px!important;
-	width:100%!important}
-
-	}
-@media only screen and (max-device-width: 592px) {
-.emailImage
-	{height:auto!important;
-	max-width:592px!important;
-	width:100%!important}
-table[class="body"] .container
-	{width:100%!important}
-.templateColumns
-	{width:100%!important}
-.templateColumnContainer
-	{display:block!important;
-	width:100%!important}
-
-	}
-@media only screen and (max-device-width: 600px) {
-.emailImage
-	{height:auto!important;
-	max-width:600px!important;
-	width:100%!important}
-table[class="body"] .container
-	{width:100%!important}
-.templateColumns
-	{width:100%!important}
-.templateColumnContainer
-	{display:block!important;
-	width:100%!important}
-
-	}
-.hr
-	{height:1px;
-	color:#d3d3d3!important;
-	background-color:#d3d3d3!important;
-	border-width:0.5px!important}
-.text-warning
-	{color:#c00000}
-.text-header-title
-	{font-weight:bold;
-	color:#ffffff;
-	font-size:12px;
-	text-transform:uppercase;
-	padding:2px;
-	text-decoration:none}
-.text-header
-	{font-weight:normal;
-	color:#ffffff;
-	font-size:12px;
-	padding:2px;
-	text-decoration:none}
-.text-footer
-	{font-size:11px;
-	font-weight:normal;
-	color:#666666}
-.text-footer-link
-	{color:#4F81BD;
-	font-weight:normal;
-	font-size:11px}
-.text-body-title
-	{font-weight:bold;
-	color:#000000;
-	font-size:12px;
-	text-transform:uppercase}
-.text-body-link
-	{color:#4F81BD;
-	font-size:11px;
-	padding-left:20px}
-.text-body-client
-	{font-weight:bold;
-	color:#ffffff;
-	font-size:12px;
-	text-transform:uppercase}
-.text-body-content
-	{font-size:12px}
-.text-body-key
-	{font-size:12px;
-	text-align:right;
-	color:#666666}
-.text-body-value
-	{font-size:12px;
-	text-align:left;
-	padding-left:8px}
-.text-summary-client_name
-	{font-weight:bold;
-	color:#ffffff;
-	font-size:11px;
-	line-height:14px;
-	text-transform:uppercase;
-	text-align:center}
-.text-summary-category_name
-	{color:#ffffff;
-	font-size:10px;
-	line-height:11px;
-	text-transform:uppercase;
-	text-align:center;
-	text-decoration:none}
-.text-summary-category_counter
-	{color:#ffffff;
-	font-size:12px;
-	line-height:14px;
-	text-align:center;
-	font-weight:bold;
-	text-decoration:none}
-.no-display
-	{display:none!important}
-a, a:visited
-	{color:inherit}
---&gt;
-&lt;/style&gt;&lt;style&gt;
-&lt;!--
-.button-td, .button-a
-	{}
-@media screen and (max-width: 600px) {
-.container
-	{width:100%!important;
-	margin:auto!important}
-.fluid
-	{max-width:100%!important;
-	height:auto!important;
-	margin-left:auto!important;
-	margin-right:auto!important}
-.stack-column, .stack-column-center
-	{display:block!important;
-	width:100%!important;
-	max-width:100%!important;
-	direction:ltr!important}
-.stack-column-center
-	{text-align:center!important}
-.center-on-narrow
-	{text-align:center!important;
-	display:block!important;
-	margin-left:auto!important;
-	margin-right:auto!important;
-	float:none!important}
-table.center-on-narrow
-	{display:inline-block!important}
-.container p
-	{font-size:17px!important}
-
-	}
---&gt;
-&lt;/style&gt;&lt;/head&gt;&lt;body class="body" style="width:100%!important; min-width:100%"&gt;&lt;table class="body" border="0" cellspacing="0" cellpadding="0" style="width:100%; border-spacing:0; padding:0; border:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="center" valign="top" style="text-align:center"&gt;&lt;center&gt;&lt;table class="container" width="600" cellspacing="0" cellpadding="0" style="width:600px; border-collapse:separate; border-spacing:0; padding:0"&gt;&lt;tbody&gt;&lt;tr style="padding:0; border-spacing:0"&gt;&lt;td style="padding:0; border-spacing:0"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" width="600" style="table-layout:fixed; border-spacing:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="background-color:#FFFFFF; margin-left:auto; margin-right:auto"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left" style="padding:10px 10px 10px 0px; text-align:right; width:10%"&gt;&lt;img src="cid:logo-ce-horizontal-quadri-lr.png" alt="European commission" height="50" width="190" border="0" class="emailImage" style="border-width:0; display:block; float:right"&gt;&lt;/td&gt;&lt;td align="left" style="padding:10px 0px 10px 0px; text-align:left; vertical-align:bottom"&gt;&lt;span style="font-weight:bold; color:#09496F; font-size:23px; padding:2px; text-decoration:none"&gt;Press Corner&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;h3 style="margin:0; padding:0; font-size:13px; line-height:15px; color:#09496F; font-family:Verdana,Geneva,sans-serif"&gt;Press corner: &lt;/h3&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;div style="margin:0; padding:0; font-size:12px; line-height:14px; color:#444345; font-family:Verdana,Geneva,sans-serif"&gt;Documents matching your subscription parameters - Date: 07/05/2026 &lt;p&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fdetail%2Fen%2Fstatement_26_1008&amp;amp;data=05%7C02%7C%7C2a3d250d39844808745708deac3a9740%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137564790577659%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=k9Tiqyby3zLnn356mmHrixoCR20VhsyW4QmPQqyip0c%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1008"&gt;&lt;b&gt;Joint press statement on the 7th EU–Japan High-Level Economic Dialogue&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size="2" width="100%" noshade="" align="center" style="color:lightgrey"&gt;&lt;p class="MsoNormal" style="text-align:left; line-height:10.5pt"&gt;&lt;span style="font-size:8.5pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#666666"&gt;Manage your notifications/alerts: &lt;span style="color:#4f81bd"&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Fedit%2Feu-automatic-edit&amp;amp;data=05%7C02%7C%7C2a3d250d39844808745708deac3a9740%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137564790608012%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=rKh1rH8F2JfsXAcXOJuogbiOOhYBStr2fITmUZOuk7I%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/edit/eu-automatic-edit" target="_blank"&gt;add, change&lt;/a&gt;, &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Feu-login%2Funsubscribe%2Feu-automatic-unsubscribe&amp;amp;data=05%7C02%7C%7C2a3d250d39844808745708deac3a9740%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137564790626146%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=uG3HmB%2FifVbb3IXIi8X8kfNKO6ngz2pcy0RljDJ9Cd0%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/eu-login/unsubscribe/eu-automatic-unsubscribe" target="_blank"&gt;unsubscribe&lt;/a&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;The European Commission is committed to personal data protection. Any personal data is processed in line with the &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Feur-lex.europa.eu%2Flegal-content%2FEN%2FTXT%2F%3Furi%3DCELEX%253A32018R1725&amp;amp;data=05%7C02%7C%7C2a3d250d39844808745708deac3a9740%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137564790643570%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=t%2F1yo1ZI%2Fl16Ttvu1IHP7FSmJOsFOXAUJYHWvFUiv%2Bc%3D&amp;amp;reserved=0" originalsrc="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R1725"&gt;Regulation(EU)2018/1725&lt;/a&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;All personal information processed by the Directorate-General for Communication / European Commission Representations is treated accordingly. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr style="padding:6px 2px 0px 2px"&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;/center&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;center&gt;&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;</description>
-    </item>
-    <item>
-      <title>Press corner:</title>
-      <pubDate>2026-05-07T10:12:59Z</pubDate>
-      <guid>AQMkADAwATYwMAItYWVjNy03OTdhLTAwAi0wMAoARgAAA_bPXlLCJ75FhzR2gmsxX6gHAMWxOsCbFFVKpJ4u2qZ6GU0ACSHNOgcAAADFsTrAmxRVSqSeLtqmehlNAAkrTlLLAAAA</guid>
-      <description>&lt;html&gt;&lt;head&gt;
-&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&lt;meta name="viewport" content="width=device-width"&gt;&lt;meta content="IE=edge"&gt;&lt;meta name="x-apple-disable-message-reformatting"&gt;&lt;style type="text/css"&gt;
-&lt;!--
-html, body
-	{font-family:Verdana,Geneva,sans-serif;
-	margin:0 auto!important;
-	padding:0!important;
-	height:100%!important;
-	width:100%!important;
-	font-weight:normal;
-	text-align:left;
-	font-size:11px}
-*
-	{}
-table, td
-	{}
-table
-	{border-spacing:0!important;
-	border-collapse:collapse!important;
-	table-layout:fixed!important;
-	margin:0 auto!important}
-table table table
-	{table-layout:auto}
-img
-	{}
-*[x-apple-data-detectors], .x-gmail-data-detectors, .x-gmail-data-detectors *, .aBn
-	{border-bottom:0!important;
-	color:inherit!important;
-	text-decoration:none!important;
-	font-size:inherit!important;
-	font-family:inherit!important;
-	font-weight:inherit!important;
-	line-height:inherit!important}
-.a6S
-	{display:none!important;
-	opacity:0.01!important}
-.button-link
-	{text-decoration:none!important}
-@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
-.container
-	{min-width:320px!important}
-.emailImage
-	{height:auto!important;
-	max-width:374px!important;
-	width:100%!important}
-
-	}
-@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
-.container
-	{min-width:375px!important}
-.emailImage
-	{height:auto!important;
-	max-width:413px!important;
-	width:100%!important}
-
-	}
-@media only screen and (min-device-width: 414px) {
-.container
-	{min-width:414px!important}
-.emailImage
-	{height:auto!important;
-	max-width:414px!important;
-	width:100%!important}
-
-	}
-@media only screen and (max-device-width: 592px) {
-.emailImage
-	{height:auto!important;
-	max-width:592px!important;
-	width:100%!important}
-table[class="body"] .container
-	{width:100%!important}
-.templateColumns
-	{width:100%!important}
-.templateColumnContainer
-	{display:block!important;
-	width:100%!important}
-
-	}
-@media only screen and (max-device-width: 600px) {
-.emailImage
-	{height:auto!important;
-	max-width:600px!important;
-	width:100%!important}
-table[class="body"] .container
-	{width:100%!important}
-.templateColumns
-	{width:100%!important}
-.templateColumnContainer
-	{display:block!important;
-	width:100%!important}
-
-	}
-.hr
-	{height:1px;
-	color:#d3d3d3!important;
-	background-color:#d3d3d3!important;
-	border-width:0.5px!important}
-.text-warning
-	{color:#c00000}
-.text-header-title
-	{font-weight:bold;
-	color:#ffffff;
-	font-size:12px;
-	text-transform:uppercase;
-	padding:2px;
-	text-decoration:none}
-.text-header
-	{font-weight:normal;
-	color:#ffffff;
-	font-size:12px;
-	padding:2px;
-	text-decoration:none}
-.text-footer
-	{font-size:11px;
-	font-weight:normal;
-	color:#666666}
-.text-footer-link
-	{color:#4F81BD;
-	font-weight:normal;
-	font-size:11px}
-.text-body-title
-	{font-weight:bold;
-	color:#000000;
-	font-size:12px;
-	text-transform:uppercase}
-.text-body-link
-	{color:#4F81BD;
-	font-size:11px;
-	padding-left:20px}
-.text-body-client
-	{font-weight:bold;
-	color:#ffffff;
-	font-size:12px;
-	text-transform:uppercase}
-.text-body-content
-	{font-size:12px}
-.text-body-key
-	{font-size:12px;
-	text-align:right;
-	color:#666666}
-.text-body-value
-	{font-size:12px;
-	text-align:left;
-	padding-left:8px}
-.text-summary-client_name
-	{font-weight:bold;
-	color:#ffffff;
-	font-size:11px;
-	line-height:14px;
-	text-transform:uppercase;
-	text-align:center}
-.text-summary-category_name
-	{color:#ffffff;
-	font-size:10px;
-	line-height:11px;
-	text-transform:uppercase;
-	text-align:center;
-	text-decoration:none}
-.text-summary-category_counter
-	{color:#ffffff;
-	font-size:12px;
-	line-height:14px;
-	text-align:center;
-	font-weight:bold;
-	text-decoration:none}
-.no-display
-	{display:none!important}
-a, a:visited
-	{color:inherit}
---&gt;
-&lt;/style&gt;&lt;style&gt;
-&lt;!--
-.button-td, .button-a
-	{}
-@media screen and (max-width: 600px) {
-.container
-	{width:100%!important;
-	margin:auto!important}
-.fluid
-	{max-width:100%!important;
-	height:auto!important;
-	margin-left:auto!important;
-	margin-right:auto!important}
-.stack-column, .stack-column-center
-	{display:block!important;
-	width:100%!important;
-	max-width:100%!important;
-	direction:ltr!important}
-.stack-column-center
-	{text-align:center!important}
-.center-on-narrow
-	{text-align:center!important;
-	display:block!important;
-	margin-left:auto!important;
-	margin-right:auto!important;
-	float:none!important}
-table.center-on-narrow
-	{display:inline-block!important}
-.container p
-	{font-size:17px!important}
-
-	}
---&gt;
-&lt;/style&gt;&lt;/head&gt;&lt;body class="body" style="width:100%!important; min-width:100%"&gt;&lt;table class="body" border="0" cellspacing="0" cellpadding="0" style="width:100%; border-spacing:0; padding:0; border:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="center" valign="top" style="text-align:center"&gt;&lt;center&gt;&lt;table class="container" width="600" cellspacing="0" cellpadding="0" style="width:600px; border-collapse:separate; border-spacing:0; padding:0"&gt;&lt;tbody&gt;&lt;tr style="padding:0; border-spacing:0"&gt;&lt;td style="padding:0; border-spacing:0"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" width="600" style="table-layout:fixed; border-spacing:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="background-color:#FFFFFF; margin-left:auto; margin-right:auto"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left" style="padding:10px 10px 10px 0px; text-align:right; width:10%"&gt;&lt;img src="cid:logo-ce-horizontal-quadri-lr.png" alt="European commission" height="50" width="190" border="0" class="emailImage" style="border-width:0; display:block; float:right"&gt;&lt;/td&gt;&lt;td align="left" style="padding:10px 0px 10px 0px; text-align:left; vertical-align:bottom"&gt;&lt;span style="font-weight:bold; color:#09496F; font-size:23px; padding:2px; text-decoration:none"&gt;Press Corner&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;h3 style="margin:0; padding:0; font-size:13px; line-height:15px; color:#09496F; font-family:Verdana,Geneva,sans-serif"&gt;Press corner: &lt;/h3&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;div style="margin:0; padding:0; font-size:12px; line-height:14px; color:#444345; font-family:Verdana,Geneva,sans-serif"&gt;Documents matching your subscription parameters - Date: 07/05/2026 &lt;p&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fdetail%2Fen%2Fmex_26_1030&amp;amp;data=05%7C02%7C%7Cd00df243722843958f7e08deac213681%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137455796831870%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=uaMEYdxuVVS6B11ZptysLoaFV6oCv32knJOtSa9GnA4%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1030"&gt;&lt;b&gt;Daily News 07 / 05 / 2026&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size="2" width="100%" noshade="" align="center" style="color:lightgrey"&gt;&lt;p class="MsoNormal" style="text-align:left; line-height:10.5pt"&gt;&lt;span style="font-size:8.5pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#666666"&gt;Manage your notifications/alerts: &lt;span style="color:#4f81bd"&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Fedit%2Feu-automatic-edit&amp;amp;data=05%7C02%7C%7Cd00df243722843958f7e08deac213681%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137455796864571%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=8B6ao1uaA7PVhyMiJaqrnaQuzHaWq%2BThlnvOdJgxm7g%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/edit/eu-automatic-edit" target="_blank"&gt;add, change&lt;/a&gt;, &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Feu-login%2Funsubscribe%2Feu-automatic-unsubscribe&amp;amp;data=05%7C02%7C%7Cd00df243722843958f7e08deac213681%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137455796883992%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=kER6ibsE7K8gWnFnx6MSGIxCf%2BprIs2haCEUv4Wz6ZM%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/eu-login/unsubscribe/eu-automatic-unsubscribe" target="_blank"&gt;unsubscribe&lt;/a&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;The European Commission is committed to personal data protection. Any personal data is processed in line with the &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Feur-lex.europa.eu%2Flegal-content%2FEN%2FTXT%2F%3Furi%3DCELEX%253A32018R1725&amp;amp;data=05%7C02%7C%7Cd00df243722843958f7e08deac213681%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137455796903032%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=ozW69%2Bi9fOgE41Ho99vYGeagHsOp2ihgyKcZuFatlwU%3D&amp;amp;reserved=0" originalsrc="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R1725"&gt;Regulation(EU)2018/1725&lt;/a&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;All personal information processed by the Directorate-General for Communication / European Commission Representations is treated accordingly. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr style="padding:6px 2px 0px 2px"&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;/center&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;center&gt;&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;</description>
-    </item>
-    <item>
-      <title>Press corner: latest press material</title>
-      <pubDate>2026-05-07T09:58:28Z</pubDate>
-      <guid>AQMkADAwATYwMAItYWVjNy03OTdhLTAwAi0wMAoARgAAA_bPXlLCJ75FhzR2gmsxX6gHAMWxOsCbFFVKpJ4u2qZ6GU0ACSHNOgcAAADFsTrAmxRVSqSeLtqmehlNAAkrTlLKAAAA</guid>
-      <description>&lt;html&gt;&lt;head&gt;
-&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&lt;meta name="viewport" content="width=device-width"&gt;&lt;meta content="IE=edge"&gt;&lt;meta name="x-apple-disable-message-reformatting"&gt;&lt;style type="text/css"&gt;
-&lt;!--
-html, body
-	{font-family:Verdana,Geneva,sans-serif;
-	margin:0 auto!important;
-	padding:0!important;
-	height:100%!important;
-	width:100%!important;
-	font-weight:normal;
-	text-align:left;
-	font-size:11px}
-*
-	{}
-table, td
-	{}
-table
-	{border-spacing:0!important;
-	border-collapse:collapse!important;
-	table-layout:fixed!important;
-	margin:0 auto!important}
-table table table
-	{table-layout:auto}
-img
-	{}
-*[x-apple-data-detectors], .x-gmail-data-detectors, .x-gmail-data-detectors *, .aBn
-	{border-bottom:0!important;
-	color:inherit!important;
-	text-decoration:none!important;
-	font-size:inherit!important;
-	font-family:inherit!important;
-	font-weight:inherit!important;
-	line-height:inherit!important}
-.a6S
-	{display:none!important;
-	opacity:0.01!important}
-.button-link
-	{text-decoration:none!important}
-@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
-.container
-	{min-width:320px!important}
-.emailImage
-	{height:auto!important;
-	max-width:374px!important;
-	width:100%!important}
-
-	}
-@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
-.container
-	{min-width:375px!important}
-.emailImage
-	{height:auto!important;
-	max-width:413px!important;
-	width:100%!important}
-
-	}
-@media only screen and (min-device-width: 414px) {
-.container
-	{min-width:414px!important}
-.emailImage
-	{height:auto!important;
-	max-width:414px!important;
-	width:100%!important}
-
-	}
-@media only screen and (max-device-width: 592px) {
-.emailImage
-	{height:auto!important;
-	max-width:592px!important;
-	width:100%!important}
-table[class="body"] .container
-	{width:100%!important}
-.templateColumns
-	{width:100%!important}
-.templateColumnContainer
-	{display:block!important;
-	width:100%!important}
-
-	}
-@media only screen and (max-device-width: 600px) {
-.emailImage
-	{height:auto!important;
-	max-width:600px!important;
-	width:100%!important}
-table[class="body"] .container
-	{width:100%!important}
-.templateColumns
-	{width:100%!important}
-.templateColumnContainer
-	{display:block!important;
-	width:100%!important}
-
-	}
-.hr
-	{height:1px;
-	color:#d3d3d3!important;
-	background-color:#d3d3d3!important;
-	border-width:0.5px!important}
-.text-warning
-	{color:#c00000}
-.text-header-title
-	{font-weight:bold;
-	color:#ffffff;
-	font-size:12px;
-	text-transform:uppercase;
-	padding:2px;
-	text-decoration:none}
-.text-header
-	{font-weight:normal;
-	color:#ffffff;
-	font-size:12px;
-	padding:2px;
-	text-decoration:none}
-.text-footer
-	{font-size:11px;
-	font-weight:normal;
-	color:#666666}
-.text-footer-link
-	{color:#4F81BD;
-	font-weight:normal;
-	font-size:11px}
-.text-body-title
-	{font-weight:bold;
-	color:#000000;
-	font-size:12px;
-	text-transform:uppercase}
-.text-body-link
-	{color:#4F81BD;
-	font-size:11px;
-	padding-left:20px}
-.text-body-client
-	{font-weight:bold;
-	color:#ffffff;
-	font-size:12px;
-	text-transform:uppercase}
-.text-body-content
-	{font-size:12px}
-.text-body-key
-	{font-size:12px;
-	text-align:right;
-	color:#666666}
-.text-body-value
-	{font-size:12px;
-	text-align:left;
-	padding-left:8px}
-.text-summary-client_name
-	{font-weight:bold;
-	color:#ffffff;
-	font-size:11px;
-	line-height:14px;
-	text-transform:uppercase;
-	text-align:center}
-.text-summary-category_name
-	{color:#ffffff;
-	font-size:10px;
-	line-height:11px;
-	text-transform:uppercase;
-	text-align:center;
-	text-decoration:none}
-.text-summary-category_counter
-	{color:#ffffff;
-	font-size:12px;
-	line-height:14px;
-	text-align:center;
-	font-weight:bold;
-	text-decoration:none}
-.no-display
-	{display:none!important}
-a, a:visited
-	{color:inherit}
---&gt;
-&lt;/style&gt;&lt;style&gt;
-&lt;!--
-.button-td, .button-a
-	{}
-@media screen and (max-width: 600px) {
-.container
-	{width:100%!important;
-	margin:auto!important}
-.fluid
-	{max-width:100%!important;
-	height:auto!important;
-	margin-left:auto!important;
-	margin-right:auto!important}
-.stack-column, .stack-column-center
-	{display:block!important;
-	width:100%!important;
-	max-width:100%!important;
-	direction:ltr!important}
-.stack-column-center
-	{text-align:center!important}
-.center-on-narrow
-	{text-align:center!important;
-	display:block!important;
-	margin-left:auto!important;
-	margin-right:auto!important;
-	float:none!important}
-table.center-on-narrow
-	{display:inline-block!important}
-.container p
-	{font-size:17px!important}
-
-	}
---&gt;
-&lt;/style&gt;&lt;/head&gt;&lt;body class="body" style="width:100%!important; min-width:100%"&gt;&lt;table class="body" border="0" cellspacing="0" cellpadding="0" style="width:100%; border-spacing:0; padding:0; border:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="center" valign="top" style="text-align:center"&gt;&lt;center&gt;&lt;table class="container" width="600" cellspacing="0" cellpadding="0" style="width:600px; border-collapse:separate; border-spacing:0; padding:0"&gt;&lt;tbody&gt;&lt;tr style="padding:0; border-spacing:0"&gt;&lt;td style="padding:0; border-spacing:0"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" width="600" style="table-layout:fixed; border-spacing:0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="background-color:#FFFFFF; margin-left:auto; margin-right:auto"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left" style="padding:10px 10px 10px 0px; text-align:right; width:10%"&gt;&lt;img src="cid:logo-ce-horizontal-quadri-lr.png" alt="European commission" height="50" width="190" border="0" class="emailImage" style="border-width:0; display:block; float:right"&gt;&lt;/td&gt;&lt;td align="left" style="padding:10px 0px 10px 0px; text-align:left; vertical-align:bottom"&gt;&lt;span style="font-weight:bold; color:#09496F; font-size:23px; padding:2px; text-decoration:none"&gt;Press Corner&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;h3 style="margin:0; padding:0; font-size:13px; line-height:15px; color:#09496F; font-family:Verdana,Geneva,sans-serif"&gt;Press corner: latest press material&lt;/h3&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;div style="margin:0; padding:0; font-size:12px; line-height:14px; color:#444345; font-family:Verdana,Geneva,sans-serif"&gt;Documents matching your subscription parameters - Date: 07/05/2026 &lt;p&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fdetail%2Ffr%2Fip_26_1026&amp;amp;data=05%7C02%7C%7C4f25b1a8dbe446e1c75e08deac1f2f11%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137447084196660%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=%2BObygt9JomczFh6umae%2BCWuW2Z7eYyZ1ppPjCPUGTtU%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/detail/fr/ip_26_1026"&gt;&lt;b&gt;la Commission donne son feu vert à la quatrième demande de paiement de l'Autriche pour un montant de 325 millions d'euros au titre de NextGenerationEU&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Aujourd'hui, la Commission européenne a évalué positivement la quatrième demande de paiement de l'Autriche, d'un montant de 325 millions d'euros, au titre de la facilité pour la reprise et la résilience, pièce maîtresse de NextGenerationEU. &lt;/p&gt;&lt;p&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fdetail%2Fen%2Fip_26_1005&amp;amp;data=05%7C02%7C%7C4f25b1a8dbe446e1c75e08deac1f2f11%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137447084231480%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=%2FT9lMxZr2Cwz8EyEMEqEd%2Fm0YxBqNS4FpKJoN8JTeiM%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1005"&gt;&lt;b&gt;EU and Jordan step up delivery of their strategic partnership through €135 million financing agreements &lt;/b&gt;&lt;/a&gt;&lt;br&gt;Today in Amman, Commissioner for the Mediterranean, Dubravka Šuica, has signed financing agreements worth €135 million with Jordan, alongside the country's Minister of Planning and International Cooperation, Zeina Toukan. These agreements aim to boost cooperation in education and skills development, security and migration management, as well as economic resilience and the business environment. &lt;/p&gt;&lt;p&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fdetail%2Ffr%2Fip_26_997&amp;amp;data=05%7C02%7C%7C4f25b1a8dbe446e1c75e08deac1f2f11%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137447084251603%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=IsoAtLImQJkGKUKTYdtmGcyyQ2Qbasn7N5RY7Ie1nRk%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/detail/fr/ip_26_997"&gt;&lt;b&gt;La Commission autorise un régime d'aides d'État allemand d'un montant de 5&amp;nbsp;milliards d'euros visant à soutenir la décarbonation de l'industrie&lt;/b&gt;&lt;/a&gt;&lt;br&gt;La Commission européenne a autorisé, en vertu des règles de l'UE en matière d'aides d'État, un régime allemand d'un montant de 5&amp;nbsp;milliards d'euros visant à aider les entreprises des secteurs industriels à décarboner leurs processus de production. Le régime contribue à la réalisation des objectifs de l'Allemagne en matière d'énergie et de climat, ainsi que des objectifs de l'UE pour une prospérité et une compétitivité durables. &lt;/p&gt;&lt;br&gt;&lt;hr size="2" width="100%" noshade="" align="center" style="color:lightgrey"&gt;&lt;p class="MsoNormal" style="text-align:left; line-height:10.5pt"&gt;&lt;span style="font-size:8.5pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#666666"&gt;Manage your notifications/alerts: &lt;span style="color:#4f81bd"&gt;&lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Fedit%2Feu-automatic-edit&amp;amp;data=05%7C02%7C%7C4f25b1a8dbe446e1c75e08deac1f2f11%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137447084270446%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=YDg9DnERqu4kg9eW%2BwMVmH%2B%2Bl17%2B9koIbiQ8WOeIVGk%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/edit/eu-automatic-edit" target="_blank"&gt;add, change&lt;/a&gt;, &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Fcommission%2Fpresscorner%2Fsecured%2Fen%2Feu-login%2Funsubscribe%2Feu-automatic-unsubscribe&amp;amp;data=05%7C02%7C%7C4f25b1a8dbe446e1c75e08deac1f2f11%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137447084288528%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=VBiouyO5c8TAdEKktp%2Fp7HO7a52JojIWnN1UiLv3v3A%3D&amp;amp;reserved=0" originalsrc="https://ec.europa.eu/commission/presscorner/secured/en/eu-login/unsubscribe/eu-automatic-unsubscribe" target="_blank"&gt;unsubscribe&lt;/a&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;The European Commission is committed to personal data protection. Any personal data is processed in line with the &lt;a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Feur-lex.europa.eu%2Flegal-content%2FEN%2FTXT%2F%3Furi%3DCELEX%253A32018R1725&amp;amp;data=05%7C02%7C%7C4f25b1a8dbe446e1c75e08deac1f2f11%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639137447084306380%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=eru7zpPspBBwI%2BwSNLWJdBF0e9zzDDu6ySzdm6tPe9w%3D&amp;amp;reserved=0" originalsrc="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R1725"&gt;Regulation(EU)2018/1725&lt;/a&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;i&gt;&lt;span style="font-size:9.0pt; font-family:&amp;quot;Verdana&amp;quot;,&amp;quot;sans-serif&amp;quot;; color:#7F7F7F"&gt;All personal information processed by the Directorate-General for Communication / European Commission Representations is treated accordingly. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table border="0" cellspacing="0" cellpadding="0" style="width:100%"&gt;&lt;tbody&gt;&lt;tr style="padding:6px 2px 0px 2px"&gt;&lt;td valign="top" style="background-color:#FFFfff; padding:0 8px 8px 4px"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style="height:1px; color:#d3d3d3; background-color:#d3d3d3; border-width:0.5px"&gt;&lt;/div&gt;&lt;/center&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;center&gt;&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;</description>
     </item>
   </channel>
 </rss>
