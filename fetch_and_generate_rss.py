@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, json, sys, requests, msal
+import os, json, sys, time, requests, msal
 from xml.etree.ElementTree import Element, SubElement, ElementTree, indent
 
 CLIENT_ID     = os.environ["AZURE_CLIENT_ID"]
@@ -17,12 +17,16 @@ def get_access_token():
         CLIENT_ID,
         authority=f"https://login.microsoftonline.com/{TENANT_ID}",
     )
-    result = app.acquire_token_by_refresh_token(REFRESH_TOKEN, scopes=SCOPES)
-    if "access_token" not in result:
-        print("[MSAL ERROR]", json.dumps(result, indent=2), file=sys.stderr)
-        sys.exit(1)
-    print("[OK] Token acquired")
-    return result["access_token"]
+    for attempt in range(1, 4):
+        result = app.acquire_token_by_refresh_token(REFRESH_TOKEN, scopes=SCOPES)
+        if "access_token" in result:
+            print("[OK] Token acquired")
+            return result["access_token"]
+        print(f"[MSAL retry {attempt}/3]", json.dumps(result, indent=2), file=sys.stderr)
+        if attempt < 3:
+            time.sleep(5 * attempt)
+    print("[MSAL] Token indisponible apres 3 tentatives - run ignore, feed conserve.", file=sys.stderr)
+    return None
 
 def fetch_emails(token):
     headers = {"Authorization": f"Bearer {token}"}
@@ -33,18 +37,27 @@ def fetch_emails(token):
         "$select": "id,subject,receivedDateTime,body,from",
     }
     url = "https://graph.microsoft.com/v1.0/me/messages"
-    r = requests.get(url, headers=headers, params=params)
-    if r.status_code != 200:
-        print(f"[GRAPH ERROR] {r.status_code}: {r.text}", file=sys.stderr)
-        r.raise_for_status()
-    all_emails = r.json().get("value", [])
-    # Filter by sender client-side
-    filtered = [
-        e for e in all_emails
-        if e.get("from", {}).get("emailAddress", {}).get("address", "").lower() == SENDER_FILTER
-    ]
-    print(f"[OK] {len(all_emails)} emails fetched, {len(filtered)} from {SENDER_FILTER}")
-    return filtered
+    last = None
+    for attempt in range(1, 4):
+        try:
+            r = requests.get(url, headers=headers, params=params, timeout=30)
+            if r.status_code == 200:
+                all_emails = r.json().get("value", [])
+                # Filter by sender client-side
+                filtered = [
+                    e for e in all_emails
+                    if e.get("from", {}).get("emailAddress", {}).get("address", "").lower() == SENDER_FILTER
+                ]
+                print(f"[OK] {len(all_emails)} emails fetched, {len(filtered)} from {SENDER_FILTER}")
+                return filtered
+            last = f"HTTP {r.status_code}: {r.text}"
+        except requests.RequestException as e:
+            last = str(e)
+        print(f"[GRAPH retry {attempt}/3] {last}", file=sys.stderr)
+        if attempt < 3:
+            time.sleep(5 * attempt)
+    print(f"[GRAPH] Echec apres 3 tentatives: {last} - run ignore, feed conserve.", file=sys.stderr)
+    return None
 
 def load_history():
     if os.path.exists(HISTORY_FILE):
@@ -74,7 +87,13 @@ def build_rss(items):
 
 if __name__ == "__main__":
     token = get_access_token()
+    if token is None:
+        print("Pas de token ce run : feed propre.")
+        sys.exit(0)
     emails = fetch_emails(token)
+    if emails is None:
+        print("Pas de fetch ce run : feed propre.")
+        sys.exit(0)
     history = load_history()
     seen_ids = {e["id"] for e in history}
     new_items = [e for e in emails if e["id"] not in seen_ids]
